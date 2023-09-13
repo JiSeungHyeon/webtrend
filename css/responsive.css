@@ -225,10 +225,14 @@
   .trigger.active span:nth-child(1){
     top:15%;
     transform:rotate(45deg);
+    background-color:#D9C7B8;
+    border:1px solid #013521;
   }
   .trigger.active span:nth-child(2){
     top:15%;
     transform:rotate(-45deg);
+    background-color:#D9C7B8;
+    border:1px solid #013521;
   }
 
   #visual ul li:nth-child(3){display:block;}
