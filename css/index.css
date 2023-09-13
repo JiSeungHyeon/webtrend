@@ -36,14 +36,6 @@ ul{list-style-type:none;}
   padding:100px 0 50px;
 }
 .logo img{width:70px;}
-.cursor.active{
-  width:100px;
-  height:100px;
-  background-color:#013521;
-  opacity:0.7;
-  color:#D9C7B8;
-  position:absolute;
-}
 
 /* header========================= */
 header{
