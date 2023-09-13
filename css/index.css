@@ -25,6 +25,7 @@ body{
   width:100%;
   max-width:1200px;
   margin:auto;
+  position:relative;  
 }
 a{
   text-decoration:none;
@@ -36,7 +37,23 @@ ul{list-style-type:none;}
   padding:100px 0 50px;
 }
 .logo img{width:70px;}
+.top{
+  position:fixed;
+  bottom:20px;
+  right:30px;
+  z-index:100;
+  text-align:center;
+}
+.top i{
+  line-height:36px;
+  font-size:28px;
 
+  color:#D9C7B8;
+  background-color:#013521;
+  border-radius: 50%;
+  width:42px;
+  height:42px;
+}
 /* header========================= */
 header{
   width:100%;
@@ -57,7 +74,10 @@ header{
   padding:5px 3px;
   background-color:#D9C7B8;
   margin:10px 0;
+  transition:0.35s;
 }
+#gnb li:hover{background-color:#260F01;}
+#gnb li:hover a{color:#D9C7B8}
 #gnb li a{
   font-size:24px;
   text-transform:capitalize;
@@ -78,6 +98,7 @@ section{
   max-width:1200px;
   margin:auto;
 }
+section img:hover{cursor:url(../image/cursor.png), auto}
 
 /* ultra minimalism */
 #mini{
