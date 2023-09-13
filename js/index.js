@@ -36,5 +36,10 @@ $(document).ready(function(){
     }
 
 });
+$("#gnb_mobile li").click(function(){
+  $('.trigger').stop().animate({right:"15px"},500);
+  $(".trigger").removeClass("active");
+  $("#gnb_mobile").stop().animate({right:"-60%"},500);
+});
 
 });
